@@ -1,0 +1,9 @@
+metric,prior_value,new_recomputed,status
+glorys_overall_rmse,1.4913,1.4913,PASS
+glorys_as_rmse,1.6688,1.6688,PASS
+glorys_bob_rmse,1.3084,1.3084,PASS
+argo_overall_rmse,1.8488,1.8488,PASS
+glorys_overall_mae,1.0519,1.0519,PASS
+glorys_overall_bias,0.7673,0.7673,PASS
+argo_overall_mae,1.5654,1.5654,PASS
+argo_overall_bias,1.5333,1.5333,PASS

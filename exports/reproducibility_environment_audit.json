@@ -1,0 +1,164 @@
+{
+  "audit_datetime_utc": "2026-09-11T21:45:47.519003Z",
+  "python_version": "3.12.14",
+  "python_executable": "/opt/anaconda3/envs/oceanembed/bin/python",
+  "os_platform": "macOS-26.6.2-arm64-arm-64bit",
+  "os_system": "Darwin",
+  "architecture": "arm64",
+  "conda_environment": "oceanembed",
+  "conda_env_path": "/opt/anaconda3/envs/oceanembed",
+  "environment_packages": {
+    "python": "3.12.14",
+    "tensorflow": "2.16.2",
+    "keras": "3.15.1",
+    "numpy": "1.26.4",
+    "pandas": "3.0.5",
+    "xarray": "2026.7.0",
+    "matplotlib": "3.11.1",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "netCDF4": "1.7.4",
+    "pyarrow": "25.0.1",
+    "protobuf": "4.25.9",
+    "optree": "0.20.0",
+    "absl-py": "2.5.0"
+  },
+  "environment_roles": {
+    "training_environment": {
+      "python_version": "3.12.x (anaconda oceanembed env)",
+      "tensorflow": "2.16.2",
+      "keras": "3.15.1",
+      "numpy": "1.26.4",
+      "notes": "Determined from notebook Cell 11: TEMPORAL_WINDOW=7, INPUT_CHANNELS=[sst,sss,ssh,sla,u_geo,v_geo,u_ageo,v_ageo,wind_u,wind_v]. Exact training environment not separately pinned in notebook \u2014 assumed same oceanembed conda env."
+    },
+    "inference_environment": {
+      "python_version": "3.12.14",
+      "python_executable": "/opt/anaconda3/envs/oceanembed/bin/python",
+      "tensorflow": "2.16.2",
+      "keras": "3.15.1",
+      "numpy": "1.26.4",
+      "notes": "AUTHORITATIVE. Used for final statistical audit (2026-09-12). Bitwise identical output on two runs confirms deterministic execution."
+    },
+    "audit_environment": {
+      "python_version": "3.12.14",
+      "python_executable": "/opt/anaconda3/envs/oceanembed/bin/python",
+      "tensorflow": "2.16.2",
+      "keras": "3.15.1",
+      "numpy": "1.26.4",
+      "notes": "Identical to inference environment. All 14 audit directives executed in this environment."
+    },
+    "base_anaconda_python313_NOT_USED": {
+      "python_version": "3.13.9",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "status": "SEGFAULTS on keras import (TF backend initialization failure on Python 3.13). DO NOT USE."
+    }
+  },
+  "frozen_model": {
+    "path": "/Users/satyamgupta/Documents/OceanEmbed/files/oceanembed_project/exports/oceanembed_model.keras",
+    "sha256": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+    "expected_sha256": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+    "integrity_verified": true,
+    "inputs": [
+      [
+        null,
+        100,
+        240,
+        70
+      ],
+      [
+        null,
+        100,
+        240,
+        1
+      ]
+    ],
+    "outputs": [
+      [
+        null,
+        100,
+        240,
+        15
+      ],
+      [
+        null,
+        100,
+        240,
+        15
+      ]
+    ],
+    "total_params": 187842
+  },
+  "frozen_cube": {
+    "path": "/Users/satyamgupta/Documents/OceanEmbed/files/oceanembed_project/data/processed/oceanembed_cube_with_climatology.nc",
+    "sha256": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+    "expected_sha256": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+    "integrity_verified": true
+  },
+  "frozen_holdout_config": {
+    "sha256": "75f82449d2f2a7b45222e8b3d6dfbef03171e114cc49406e0cb8d970ef4e7ef8",
+    "expected_sha256": "75f82449d2f2a7b45222e8b3d6dfbef03171e114cc49406e0cb8d970ef4e7ef8",
+    "integrity_verified": true
+  },
+  "frozen_notebook": {
+    "sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+    "expected_sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+    "integrity_verified": true
+  },
+  "inference_reproducibility": {
+    "total_prediction_values": 18000000,
+    "finite_prediction_values": 18000000,
+    "run1_vs_run2_max_abs_diff": 0.0,
+    "run1_vs_run2_mean_abs_diff": 0.0,
+    "bitwise_identical": true,
+    "temporal_window_days": 7,
+    "n_holdout_days": 50,
+    "n_model_input_channels": 70,
+    "batch_size": 4
+  },
+  "reconstruction_reproducibility": {
+    "rows_sampled": 200,
+    "depth_values_compared": 2976,
+    "max_abs_diff_c": 0.0004997787475584659,
+    "mean_abs_diff_c": 0.00024787587247868684,
+    "null_mismatches": 0,
+    "match_status": "PASS"
+  },
+  "headline_metrics_verified": {
+    "glorys_pooled_rmse": 1.4913,
+    "glorys_pooled_rmse_canonical": 1.4913,
+    "glorys_rmse_match": true,
+    "argo_pooled_rmse": 1.8488,
+    "argo_pooled_rmse_canonical": 1.8488,
+    "argo_rmse_match": true,
+    "glorys_pooled_4d_r": 0.9869,
+    "argo_pooled_4d_r": 0.9876,
+    "glorys_mean_within_depth_r": 0.4592,
+    "glorys_median_within_depth_r": 0.6143,
+    "warning_pooled_r": "Pooled 4D Pearson r dominated by vertical temperature gradient. NOT spatial skill. Must label as secondary metric only."
+  },
+  "uncertainty_calibration": {
+    "calibration_status": "NOT_DEMONSTRATED",
+    "empirical_1sigma_coverage_pct": 12.93,
+    "empirical_2sigma_coverage_pct": 24.86,
+    "r_sigma_abs_error": 0.1989,
+    "nominal_1sigma_pct": 68.27,
+    "nominal_2sigma_pct": 95.45
+  },
+  "final_status": "READY_WITH_TRANSPARENT_CAVEATS",
+  "mandatory_caveats": [
+    "Domain and time scope: North Indian Ocean only (55\u00b0E\u201384.75\u00b0E, -0.25\u00b0N\u201324.5\u00b0N); January\u2013June 2023 only. Generalizability to other regions, seasons, or years is not demonstrated.",
+    "50-day holdout: Short evaluation window (2023-05-11 to 2023-06-29). Seasonal representativeness is limited.",
+    "GLORYS12V1 is a numerical ocean reanalysis benchmark \u2014 not physical ground truth. It assimilates satellite and in-situ observations and contains model physics errors.",
+    "ARGO observations are sparse independent in-situ measurements: 4 cycle dates, Arabian Sea only, 0m excluded, 0 observations in Bay of Bengal. ARGO RMSE/MAE at individual depths should be interpreted with caution given sample sizes (n=664\u20133,404).",
+    "Uncertainty calibration is NOT DEMONSTRATED: empirical 1\u03c3 coverage ~12.9% vs Gaussian nominal 68.3%. Predicted \u03c3 is strictly uncalibrated model-inferred variance.",
+    "Pooled 4D Pearson r (~0.987) is dominated by the vertical temperature gradient and must NOT be interpreted as within-depth spatial reconstruction skill. Within-depth mean r for GLORYS is ~0.46.",
+    "Results are configuration-specific: this model was trained on a specific 130-day training window and evaluated on a specific 50-day holdout. Results may differ under different splits."
+  ],
+  "METRIC_DEFINITIONS": {
+    "pooled_rmse": "sqrt(mean((pred-obs)\u00b2)) over ALL jointly finite 4D pairs \u2014 NOT mean of per-depth RMSEs",
+    "pooled_4d_pearson_r": "SECONDARY ONLY \u2014 dominated by vertical gradient. Labeled '4D pooled Pearson correlation'.",
+    "within_depth_pearson_r": "PRIMARY spatial skill metric \u2014 computed independently per depth level.",
+    "ARGO_language": "Always 'independent in-situ ARGO float observations'. Never 'truth' or 'ground truth'.",
+    "GLORYS_language": "Always 'numerical ocean reanalysis benchmark (GLORYS12V1)'. Never 'ground truth'."
+  }
+}

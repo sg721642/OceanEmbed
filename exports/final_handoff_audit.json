@@ -1,0 +1,61 @@
+{
+  "generated_utc": "2026-09-11T21:45:47.519397Z",
+  "final_status": "READY_WITH_TRANSPARENT_CAVEATS",
+  "all_freeze_hashes_pass": true,
+  "freeze_details": {
+    "oceanembed_model.keras": {
+      "actual_sha256": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+      "expected_sha256": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+      "status": "PASS"
+    },
+    "oceanembed_cube_with_climatology.nc": {
+      "actual_sha256": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+      "expected_sha256": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+      "status": "PASS"
+    },
+    "holdout_config.json": {
+      "actual_sha256": "75f82449d2f2a7b45222e8b3d6dfbef03171e114cc49406e0cb8d970ef4e7ef8",
+      "expected_sha256": "75f82449d2f2a7b45222e8b3d6dfbef03171e114cc49406e0cb8d970ef4e7ef8",
+      "status": "PASS"
+    },
+    "notebooks/OceanEmbed_Training_Pipeline.ipynb": {
+      "actual_sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+      "expected_sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+      "status": "PASS"
+    },
+    "OceanEmbed_Training_Pipeline_CORRECTED.ipynb": {
+      "actual_sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+      "expected_sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+      "status": "PASS"
+    }
+  },
+  "inference_bitwise_identical": true,
+  "reconstruction_match_status": "PASS",
+  "headline_metrics_pass": true,
+  "glorys_pooled_rmse": 1.4913,
+  "argo_pooled_rmse": 1.8488,
+  "glorys_pooled_4d_r": 0.9869,
+  "glorys_mean_within_depth_r": 0.4592,
+  "argo_pooled_4d_r": 0.9876,
+  "uncertainty_calibration_status": "NOT_DEMONSTRATED",
+  "model_frozen": true,
+  "holdout_frozen": true,
+  "retraining_performed": false,
+  "synthetic_scientific_values": false,
+  "files_created": [
+    "exports/requirements-final.txt",
+    "exports/environment_manifest.json",
+    "exports/final_package_manifest.csv",
+    "exports/README_FINAL.md",
+    "exports/reproducibility_environment_audit.json"
+  ],
+  "mandatory_caveats": [
+    "Domain and time scope: North Indian Ocean only (55\u00b0E\u201384.75\u00b0E, -0.25\u00b0N\u201324.5\u00b0N); January\u2013June 2023 only. Generalizability to other regions, seasons, or years is not demonstrated.",
+    "50-day holdout: Short evaluation window (2023-05-11 to 2023-06-29). Seasonal representativeness is limited.",
+    "GLORYS12V1 is a numerical ocean reanalysis benchmark \u2014 not physical ground truth. It assimilates satellite and in-situ observations and contains model physics errors.",
+    "ARGO observations are sparse independent in-situ measurements: 4 cycle dates, Arabian Sea only, 0m excluded, 0 observations in Bay of Bengal. ARGO RMSE/MAE at individual depths should be interpreted with caution given sample sizes (n=664\u20133,404).",
+    "Uncertainty calibration is NOT DEMONSTRATED: empirical 1\u03c3 coverage ~12.9% vs Gaussian nominal 68.3%. Predicted \u03c3 is strictly uncalibrated model-inferred variance.",
+    "Pooled 4D Pearson r (~0.987) is dominated by the vertical temperature gradient and must NOT be interpreted as within-depth spatial reconstruction skill. Within-depth mean r for GLORYS is ~0.46.",
+    "Results are configuration-specific: this model was trained on a specific 130-day training window and evaluated on a specific 50-day holdout. Results may differ under different splits."
+  ]
+}

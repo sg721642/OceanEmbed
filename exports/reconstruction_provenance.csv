@@ -1,0 +1,11 @@
+field,source,source_variable,transformation,missing_policy,synthetic_allowed
+obs_date,NetCDF time coordinate,time,None (exact ISO-8601 date string),Forbidden (all holdout dates must exist),False
+lat,NetCDF lat coordinate,lat,0.25-deg cell center (rounded to 3 decimals),Forbidden,False
+lon,NetCDF lon coordinate,lon,0.25-deg positive-East cell center,Forbidden,False
+temperature_c,OceanEmbed-v3 Model + Climatology,temp_pred_anomaly + climatology,Deterministic addition of CNN anomaly head + historical climatology,NULL where bathymetry/land mask prevents background climatology,False
+uncertainty_c,OceanEmbed-v3 Uncertainty Head,uncertainty_head,Bounded variance output: exp(-1 + 3*tanh(z/3)),NULL where land/bathymetry mask is active,False
+regime,Project Geographic Definition,lon < 77.0E,Binary domain split: arabian_sea vs bay_of_bengal,Forbidden,False
+ocean_valid,NetCDF Land/Ocean Mask,ocean_mask,Boolean flag for active ocean pixels,False for land cells (excluded from export),False
+depth_coverage_count,Mathematical derivation from temperature_c,finite_count(temperature_c),Count of finite standard depth predictions in profile [1..15],0 if profile is entirely missing,False
+min_valid_depth_m,Standard Depth Levels,STANDARD_DEPTHS,Shallowest finite depth in profile (typically 0m),NULL if profile has no finite depths,False
+max_valid_depth_m,Standard Depth Levels,STANDARD_DEPTHS,Deepest finite depth in profile (e.g. 1000m or shelf depth),NULL if profile has no finite depths,False

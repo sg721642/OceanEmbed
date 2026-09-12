@@ -1,0 +1,16 @@
+{
+  "method": "gaussian_temporal_smoothing_with_flat_holdout",
+  "sigma_days": 15.0,
+  "input_cube": "oceanembed_cube.nc",
+  "output_cube": "oceanembed_cube_with_climatology.nc",
+  "holdout_days": 50,
+  "n_total_days": 180,
+  "train_start": "2023-01-01",
+  "train_end": "2023-05-10",
+  "holdout_start": "2023-05-11",
+  "holdout_end": "2023-06-29",
+  "glorys_temperature_var": "temperature_3d",
+  "argo_temperature_var": "argo_temperature_3d",
+  "anomaly_var": "temperature_anomaly",
+  "climatology_var": "climatology"
+}

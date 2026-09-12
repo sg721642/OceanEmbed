@@ -1,0 +1,42 @@
+{
+  "data/processed/oceanembed_cube_with_climatology.nc": {
+    "sha256": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+    "size_bytes": 429264108
+  },
+  "data/processed/oceanembed_cube.nc": {
+    "sha256": "a676917ce1171ca10d5783f86dac602591cb04c39c04526697a7f49df3ada8d5",
+    "size_bytes": 208910337
+  },
+  "exports/reconstructions.csv": {
+    "sha256": "82d54ef1c75e96ae86e4eb41b4a363d090ba8ec6938ff331742ee49efad3febb",
+    "size_bytes": 282214179
+  },
+  "exports/reconstructions.parquet": {
+    "sha256": "69055aafdb9c0cfd8e23b6b2aaf137f2245f770a2200c1131faf57b00ab97641",
+    "size_bytes": 100251283
+  },
+  "exports/regime_profile_level.csv": {
+    "sha256": "21df5af7651ab9b6c8dd22dc0b7a28de2c3f44335dfab4fbc7dc9ea79c6711a5",
+    "size_bytes": 93232447
+  },
+  "exports/all_scientific_nulls_ledger.csv": {
+    "sha256": "bf2e6865e97a61f568bf06122281065993f877843bed485e50fe7e711a7d7b7f",
+    "size_bytes": 13326273
+  },
+  "exports/inversion_candidates.csv": {
+    "sha256": "340260aebf3dd946085f94b381196e8de7a3dcce7e512fbe8ed48d05ae5518c6",
+    "size_bytes": 2751124
+  },
+  "exports/inversion_profiles.csv": {
+    "sha256": "dfcb10a8e0b112003f28afdd1e84e5f5daabf60f1da70612cf96c85d7699882d",
+    "size_bytes": 1453517
+  },
+  "exports/missingness_cell_audit_argo.csv": {
+    "sha256": "5cc18004a4bc2f34c41f79822024a596eab1bbb32c3ed8d2dc34c2a89f05645a",
+    "size_bytes": 1688611
+  },
+  "exports/oceanembed_model.keras": {
+    "sha256": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+    "size_bytes": 853228
+  }
+}

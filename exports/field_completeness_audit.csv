@@ -1,0 +1,285 @@
+artifact,column,row_count,finite_count,null_count,null_fraction,verified_missing_reason,recoverable,recovered_count
+inversion_candidates.csv,candidate_id,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,date,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,region,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,lat,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,lon,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,depth_top_m,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,depth_bottom_m,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,delta_temp_c,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,glorys_top_c,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,glorys_bottom_c,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,model_top_c,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,model_bottom_c,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,argo_top_c,19233,123,19110,0.9936,ARGO_OFF_CYCLE/NO_ARGO_SOURCE_COVERAGE,False,0
+inversion_candidates.csv,argo_bottom_c,19233,123,19110,0.9936,ARGO_OFF_CYCLE/NO_ARGO_SOURCE_COVERAGE,False,0
+inversion_candidates.csv,glorys_inversion,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,model_inversion,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,argo_inversion,19233,123,19110,0.9936,NO_VALID_PAIR,False,0
+inversion_candidates.csv,argo_available,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,model_minus_glorys_top,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,model_minus_glorys_bottom,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_candidates.csv,source_status,19233,19233,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,case_id,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,obs_date,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,region,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,lat,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,lon,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,depth_m,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,glorys_temp_c,360,336,24,0.0667,BELOW_LOCAL_SEAFLOOR,False,0
+inversion_case_studies.csv,model_temp_c,360,336,24,0.0667,BELOW_LOCAL_SEAFLOOR,False,0
+inversion_case_studies.csv,argo_temp_c,360,0,360,1.0,ARGO_SURFACE_CUTOFF/ARGO_OFF_CYCLE/NO_ARGO_SOURCE_COVERAGE,False,0
+inversion_case_studies.csv,climatology_temp_c,360,336,24,0.0667,BELOW_LOCAL_SEAFLOOR,False,0
+inversion_case_studies.csv,model_uncertainty_c,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,argo_available,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,glorys_available,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,model_available,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_studies.csv,metric_status,360,360,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,case_id,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,obs_date,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,region,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,lat,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,lon,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,n_argo_depths,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,n_glorys_depths,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,n_model_depths,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,inversion_depth_top_m,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,inversion_depth_bottom_m,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,inversion_delta_c,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,argo_available,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,glorys_available,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,model_available,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,argo_inversion,24,0,24,1.0,NO_VALID_PAIR,False,0
+inversion_case_summary.csv,glorys_inversion,24,24,0,0.0,NONE (fully populated),False,0
+inversion_case_summary.csv,model_inversion,24,24,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,depth_top_m,5,5,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,depth_bottom_m,5,5,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,count,5,5,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,mean_delta,5,5,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,median_delta,5,5,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,p95_delta,5,5,0,0.0,NONE (fully populated),False,0
+inversion_depth_metrics.csv,max_delta,5,5,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,magnitude_bin_c,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,count,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,frequency,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,min_delta_c,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,max_delta_c,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,mean_delta_c,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,median_delta_c,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,p90_delta_c,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,arabian_sea_count,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,bay_of_bengal_count,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,model_supported_count,6,6,0,0.0,NONE (fully populated),False,0
+inversion_magnitude_metrics.csv,argo_supported_count,6,6,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,region,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,profiles_checked,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,profiles_with_inversion,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,inversion_frequency,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,total_inversion_segments,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,mean_delta,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,median_delta,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,p90_delta,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,p95_delta,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,max_delta,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,mean_top_depth,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,mean_bottom_depth,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,ARGO_supported_profiles,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,GLORYS_supported_profiles,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics.csv,model_supported_profiles,3,3,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,date,150,150,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,region,150,150,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,profiles_checked,150,150,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,profiles_with_inversion,150,150,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,inversion_frequency,150,150,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,segments,150,150,0,0.0,NONE (fully populated),False,0
+inversion_metrics_daily.csv,mean_delta,150,104,46,0.3067,NO_VALID_PAIR,False,0
+inversion_metrics_daily.csv,max_delta,150,104,46,0.3067,NO_VALID_PAIR,False,0
+inversion_metrics_daily.csv,mean_top_depth,150,104,46,0.3067,NO_VALID_PAIR,False,0
+inversion_metrics_daily.csv,mean_bottom_depth,150,104,46,0.3067,NO_VALID_PAIR,False,0
+inversion_profiles.csv,profile_id,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,date,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,region,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,lat,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,lon,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,n_glorys_depths,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,n_model_depths,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,n_argo_depths,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,n_inversion_segments,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,shallowest_top_m,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,shallowest_bottom_m,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,maximum_inversion_delta_c,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,ARGO_supported,16918,113,16805,0.9933,NO_VALID_PAIR,False,0
+inversion_profiles.csv,GLORYS_supported,16918,16918,0,0.0,NONE (fully populated),False,0
+inversion_profiles.csv,model_supported,16918,16918,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,variable,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,region,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,depth_m,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,total_ocean_points,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,finite_count,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,nan_count,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,finite_fraction,120,120,0,0.0,NONE (fully populated),False,0
+missingness_report.csv,primary_missing_reason,120,120,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,date,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,total_grid_cells,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,ocean_cells,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,finite_model_profiles,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,finite_temperature_profiles,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,finite_uncertainty_profiles,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,missing_temperature_profiles,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_completeness.csv,missing_reason,50,50,0,0.0,NONE (fully populated),False,0
+reconstruction_provenance.csv,field,10,10,0,0.0,NONE (fully populated),False,0
+reconstruction_provenance.csv,source,10,10,0,0.0,NONE (fully populated),False,0
+reconstruction_provenance.csv,source_variable,10,10,0,0.0,NONE (fully populated),False,0
+reconstruction_provenance.csv,transformation,10,10,0,0.0,NONE (fully populated),False,0
+reconstruction_provenance.csv,missing_policy,10,10,0,0.0,NONE (fully populated),False,0
+reconstruction_provenance.csv,synthetic_allowed,10,10,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,obs_date,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,lat,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,lon,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,temperature_c,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,uncertainty_c,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,regime,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,ocean_valid,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,depth_coverage_count,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,min_valid_depth_m,1116650,1116650,0,0.0,NONE (fully populated),False,0
+reconstructions.csv,max_valid_depth_m,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,obs_date,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,regime,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,validation_target,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,depth_m,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,n_obs,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,finite_model_count,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,finite_target_count,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,paired_count,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,coverage_fraction,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_date_depth_population.csv,rmse_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,mae_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,bias_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,median_abs_error_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,std_error_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,p90_abs_error_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,p95_abs_error_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,min_error_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,max_error_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,pearson_r,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_date_depth_population.csv,metric_status,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_depth_summary.csv,regime,60,60,0,0.0,NONE (fully populated),False,0
+regime_depth_summary.csv,depth_m,60,60,0,0.0,NONE (fully populated),False,0
+regime_depth_summary.csv,validation_target,60,60,0,0.0,NONE (fully populated),False,0
+regime_depth_summary.csv,n_obs,60,60,0,0.0,NONE (fully populated),False,0
+regime_depth_summary.csv,coverage_fraction,60,60,0,0.0,NONE (fully populated),False,0
+regime_depth_summary.csv,rmse_c,60,44,16,0.2667,NO_VALID_PAIR,False,0
+regime_depth_summary.csv,mae_c,60,44,16,0.2667,NO_VALID_PAIR,False,0
+regime_depth_summary.csv,bias_c,60,44,16,0.2667,NO_VALID_PAIR,False,0
+regime_depth_summary.csv,correlation,60,44,16,0.2667,NO_VALID_PAIR,False,0
+regime_depth_summary.csv,median_abs_error_c,60,44,16,0.2667,NO_VALID_PAIR,False,0
+regime_depth_summary.csv,p95_abs_error_c,60,44,16,0.2667,NO_VALID_PAIR,False,0
+regime_depth_summary.csv,metric_status,60,60,0,0.0,NONE (fully populated),False,0
+regime_latitude_metrics.csv,latitude_band,300,300,0,0.0,NONE (fully populated),False,0
+regime_latitude_metrics.csv,regime,300,300,0,0.0,NONE (fully populated),False,0
+regime_latitude_metrics.csv,validation_target,300,300,0,0.0,NONE (fully populated),False,0
+regime_latitude_metrics.csv,depth_m,300,300,0,0.0,NONE (fully populated),False,0
+regime_latitude_metrics.csv,n_obs,300,300,0,0.0,NONE (fully populated),False,0
+regime_latitude_metrics.csv,rmse_c,300,172,128,0.4267,NO_VALID_PAIR,False,0
+regime_latitude_metrics.csv,mae_c,300,172,128,0.4267,NO_VALID_PAIR,False,0
+regime_latitude_metrics.csv,bias_c,300,172,128,0.4267,NO_VALID_PAIR,False,0
+regime_latitude_metrics.csv,correlation,300,172,128,0.4267,NO_VALID_PAIR,False,0
+regime_latitude_metrics.csv,metric_status,300,300,0,0.0,NONE (fully populated),False,0
+regime_longitude_metrics.csv,longitude_band,360,360,0,0.0,NONE (fully populated),False,0
+regime_longitude_metrics.csv,regime,360,360,0,0.0,NONE (fully populated),False,0
+regime_longitude_metrics.csv,validation_target,360,360,0,0.0,NONE (fully populated),False,0
+regime_longitude_metrics.csv,depth_m,360,360,0,0.0,NONE (fully populated),False,0
+regime_longitude_metrics.csv,n_obs,360,360,0,0.0,NONE (fully populated),False,0
+regime_longitude_metrics.csv,rmse_c,360,213,147,0.4083,NO_VALID_PAIR,False,0
+regime_longitude_metrics.csv,mae_c,360,213,147,0.4083,NO_VALID_PAIR,False,0
+regime_longitude_metrics.csv,bias_c,360,213,147,0.4083,NO_VALID_PAIR,False,0
+regime_longitude_metrics.csv,correlation,360,213,147,0.4083,NO_VALID_PAIR,False,0
+regime_longitude_metrics.csv,metric_status,360,360,0,0.0,NONE (fully populated),False,0
+regime_metrics.csv,regime,64,64,0,0.0,NONE (fully populated),False,0
+regime_metrics.csv,validation_target,64,64,0,0.0,NONE (fully populated),False,0
+regime_metrics.csv,depth_m,64,64,0,0.0,NONE (fully populated),False,0
+regime_metrics.csv,n_obs,64,64,0,0.0,NONE (fully populated),False,0
+regime_metrics.csv,coverage_fraction,64,64,0,0.0,NONE (fully populated),False,0
+regime_metrics.csv,rmse_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,mae_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,bias_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,median_abs_error_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,std_error_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,p90_abs_error_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,p95_abs_error_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,min_error_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,max_error_c,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,pearson_r,64,47,17,0.2656,NO_VALID_PAIR,False,0
+regime_metrics.csv,metric_status,64,64,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily.csv,date,200,200,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily.csv,regime,200,200,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily.csv,validation_target,200,200,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily.csv,n_obs,200,200,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily.csv,coverage_fraction,200,200,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily.csv,rmse_c,200,104,96,0.48,NO_VALID_PAIR,False,0
+regime_metrics_daily.csv,mae_c,200,104,96,0.48,NO_VALID_PAIR,False,0
+regime_metrics_daily.csv,bias_c,200,104,96,0.48,NO_VALID_PAIR,False,0
+regime_metrics_daily.csv,correlation,200,104,96,0.48,NO_VALID_PAIR,False,0
+regime_metrics_daily.csv,median_abs_error_c,200,104,96,0.48,NO_VALID_PAIR,False,0
+regime_metrics_daily.csv,p95_abs_error_c,200,104,96,0.48,NO_VALID_PAIR,False,0
+regime_metrics_daily.csv,metric_status,200,200,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,date,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,regime,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,validation_target,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,depth_m,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,n_obs,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,coverage_fraction,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_metrics_daily_depth.csv,rmse_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_metrics_daily_depth.csv,mae_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_metrics_daily_depth.csv,bias_c,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_metrics_daily_depth.csv,correlation,3000,1556,1444,0.4813,NO_VALID_PAIR,False,0
+regime_metrics_daily_depth.csv,metric_status,3000,3000,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,date,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,lat,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,lon,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,regime,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,n_valid_model_depths,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,n_valid_glorys_depths,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,n_valid_argo_depths,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,mean_model_uncertainty,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,mean_model_temperature,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,mean_glorys_temperature,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,mean_model_minus_glorys,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,argo_available,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_profile_level.csv,glorys_available,1116650,1116650,0,0.0,NONE (fully populated),False,0
+regime_spatial_breakdown.csv,latitude_band,118,118,0,0.0,NONE (fully populated),False,0
+regime_spatial_breakdown.csv,longitude_band,118,118,0,0.0,NONE (fully populated),False,0
+regime_spatial_breakdown.csv,regime,118,118,0,0.0,NONE (fully populated),False,0
+regime_spatial_breakdown.csv,validation_target,118,118,0,0.0,NONE (fully populated),False,0
+regime_spatial_breakdown.csv,n_valid,118,118,0,0.0,NONE (fully populated),False,0
+regime_spatial_breakdown.csv,rmse_c,118,64,54,0.4576,NO_VALID_PAIR,False,0
+regime_spatial_breakdown.csv,mae_c,118,64,54,0.4576,NO_VALID_PAIR,False,0
+regime_spatial_breakdown.csv,bias_c,118,64,54,0.4576,NO_VALID_PAIR,False,0
+regime_spatial_breakdown.csv,median_abs_error_c,118,64,54,0.4576,NO_VALID_PAIR,False,0
+regime_spatial_breakdown.csv,p95_abs_error_c,118,64,54,0.4576,NO_VALID_PAIR,False,0
+regime_spatial_breakdown.csv,correlation,118,64,54,0.4576,NO_VALID_PAIR,False,0
+regime_spatial_breakdown.csv,metric_status,118,118,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,regime,4,4,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,validation_target,4,4,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,n_obs,4,4,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,coverage_fraction,4,4,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,rmse_c,4,3,1,0.25,NO_VALID_PAIR,False,0
+regime_summary.csv,mae_c,4,3,1,0.25,NO_VALID_PAIR,False,0
+regime_summary.csv,bias_c,4,3,1,0.25,NO_VALID_PAIR,False,0
+regime_summary.csv,median_abs_error_c,4,3,1,0.25,NO_VALID_PAIR,False,0
+regime_summary.csv,p95_abs_error_c,4,3,1,0.25,NO_VALID_PAIR,False,0
+regime_summary.csv,correlation,4,3,1,0.25,NO_VALID_PAIR,False,0
+regime_summary.csv,finite_days,4,4,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,finite_grid_cells,4,4,0,0.0,NONE (fully populated),False,0
+regime_summary.csv,metric_status,4,4,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,region,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,date_range,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,date_span,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,depth_m,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,total_ocean_points,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,model_finite,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,glorys_finite,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,argo_finite,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,model_glorys_pairs,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,model_argo_pairs,120,120,0,0.0,NONE (fully populated),False,0
+source_completeness.csv,all_three_finite,120,120,0,0.0,NONE (fully populated),False,0

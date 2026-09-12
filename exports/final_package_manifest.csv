@@ -1,0 +1,80 @@
+filename,file_type,size_bytes,sha256,purpose,scientific_or_metadata,required_for_reproduction,description
+all_scientific_nulls_ledger.csv,csv,13326273,bf2e6865e97a61f568bf06122281065993f877843bed485e50fe7e711a7d7b7f,audit,metadata,True,"97,263-row ledger of all scientific NULLs with mechanism labels."
+argo_coverage_map.png,png,72441,46cd246dbc29dc001e2670e7e49685269c68f7e332fe1a58a715ae1c629a36b0,figure,scientific,False,ARGO coverage map.
+argo_null_reconciliation.csv,csv,987,613a43aa218bc4411980961582b99be93a9d0ab52b02b6d8c72336f08481afea,audit,metadata,True,ARGO-specific NULL reconciliation.
+environment_manifest.json,json,1333,2addd03bc85c87acf512e2c6f10114881cb1f36f0517cccef646437e29acc313,environment,metadata,True,"OS, architecture, Python, all package versions, conda env path."
+field_completeness_audit.csv,csv,23836,7b750254c04b0412177a6b274b9fdb91578d940a727867bb19e6493bbcca8a29,audit,metadata,True,Column-level completeness audit across all production CSVs.
+final_case_study_index.csv,csv,1743,0acf64c4be131042958e6ebc16dffcfcb824d6e22eb8ed9c8e16ed5fe2bd40fe,inversion,scientific,False,"24-row index of deterministic case studies (date, lat, lon, region)."
+final_daily_performance.csv,csv,7350,639727e596b27741744bf54ffafe85021bfbafa59f41e034300ffb8a5531acee,metrics,scientific,False,Daily GLORYS RMSE time series over 50-day holdout.
+final_daily_performance.png,png,91436,180412cd3dbc13bea0233757865066cb97f78a570ad90112739b92af09af7d97,figure,scientific,False,Daily RMSE figure.
+final_depth_performance.csv,csv,5071,6c395eace9795b52a87dedf01313873a527893420d15b568c5de50e393d9e9f4,other,metadata,False,See file contents.
+final_depth_performance_reconciled.csv,csv,5071,6c395eace9795b52a87dedf01313873a527893420d15b568c5de50e393d9e9f4,metrics,scientific,True,37-row depth metrics: 15 GLORYS individual depths + 3 GLORYS pooled strata + 15 ARGO individual depths + 3 ARGO pooled strata.
+final_forensic_audit.json,json,3349,1f2603e65d2dae73602a4ce8c7d7bc3e893db8f19810f694504735791d300adf,audit,metadata,True,Forensic audit JSON from surgical missingness pass.
+final_freeze_audit.json,json,1517,d2ec7e7df7671e8d330c6b19bb27e755363620c0c784d99d8f76c68ad3604d6e,integrity,metadata,True,"SHA-256 hashes for model, cube, holdout_config, and notebooks at freeze time."
+final_inversion_summary.csv,csv,1141,f198cfe65328ed642732ec0bea3fca5fbfee184af361c3daf99648c59134603d,inversion,scientific,True,"Inversion magnitude bin summary: 6 bins, 19,233 segments, all verified."
+final_model_audit.md,md,10766,315b91e118bf2b91161a2c67ea9fea3c5003eec5ada110c29f5a020ee9e88b32,report,metadata,True,Detailed model audit with population counts.
+final_model_performance_summary.csv,csv,836,af19932ccbf038406ceee7f19bbc3c3ee18d67e599151cb8118b2a8417735b5e,metrics,scientific,True,"6-row master metrics table: overall GLORYS, AS GLORYS, BoB GLORYS, overall ARGO, AS ARGO, BoB ARGO. Pooled RMSE/MAE/Bias/r."
+final_regime_performance.csv,csv,5530,36fb498530aff3fc4864b4f8655ed68b11e274fa47efe23ab98afac8e807444e,metrics,scientific,True,Regime-split performance metrics across depths.
+final_results_summary.md,md,8879,10549f9f3d6ea38502328d9b45e3ed058014a3396ec1aafcffea3685da7e53ed,report,scientific,True,"Headline results reference. Architecture, metrics, inversions, caveats."
+final_spatial_error.png,png,91248,cfd0f88867107ac989450c71ad6cdaabfbff00dcc4076774166f3541949f823a,figure,scientific,False,Spatial error map figure.
+final_statistical_recompute.csv,csv,12269,8194b868413680dd417039aa1723bd0bd83b92e76540bfb9b4f4dcee0499ccb9,metrics,scientific,True,"50-row independent metric recompute. Includes pooled-4D, per-regime, per-depth (all 15), per-stratum, and Pearson-r decomposition rows."
+final_statistical_validity_summary.json,json,3086,106b55590565b726aef591ffa7588c9d9a342d98ad4ee1af22f49e3b9cf388b4,audit,metadata,True,Master statistical validity audit summary JSON. Final status: READY_WITH_TRANSPARENT_CAVEATS.
+final_uncertainty_summary.csv,csv,1419,bf96642f55aff8c9bed88dfaf0d48bee421cdcb3a939c7c92d0b38e413543b22,metrics,scientific,True,"Uncertainty calibration statistics: r, 1σ/2σ coverage."
+headline_metric_lineage.csv,csv,4836,79c698e02810a5d4a059223b5722486d355e5df50350e92a36dce0d2fa214e8f,lineage,metadata,True,Every headline number traced to source array and calculation method.
+inference_result_reconciliation.csv,csv,4078,bae668a2e17fbc12db18457e80c01dd8c58c3f37ff5c250aa37f52defed6f1ce,audit,metadata,True,10-row reconciliation: arithmetic-mean-of-depths (Set A) vs pooled-4D (Set B) vs notebook (Set C).
+input_scaler.npz,npz,1068,0147bc3d7800e5ec5513561435c28f4790ff6827c5a67f83bee313773d280af6,model_config,scientific,True,Channel mean/std for input normalization. Computed on pre-holdout data only.
+inversion_candidates.csv,csv,2751124,340260aebf3dd946085f94b381196e8de7a3dcce7e512fbe8ed48d05ae5518c6,inversion,scientific,True,"Segment-level inversion data: depth pairs, delta_T values."
+inversion_case_overview.png,png,458917,1a38d043d0b2efa5e9b7d2e30b5e71cb7e46dc13e8397954f7f8c7ccdb0209a4,figure,scientific,False,Inversion case study overview figure.
+inversion_case_plot.png,png,458917,1a38d043d0b2efa5e9b7d2e30b5e71cb7e46dc13e8397954f7f8c7ccdb0209a4,figure,scientific,False,Inversion case study detail figure.
+inversion_case_studies.csv,csv,37006,a4afffa3b5bee6fdb38952124f5168569fe4f0f734610b223b31fa5dc7746ed3,inversion,scientific,False,"24 deterministic case study profiles (12 AS, 12 BoB)."
+inversion_case_summary.csv,csv,2501,3b0a4afd90e92a5de951ab6d16c383d47c8a529c0a374292d49d1806ae3aa24a,inversion,scientific,False,Case study summary statistics.
+inversion_daily_frequency.png,png,95090,e33b1693a9540162722ebdfb3d9b88c9eb90cba745a33df97c642f4b3d4dd068,figure,scientific,False,Daily inversion frequency figure.
+inversion_delta_distribution.png,png,58485,2d4e6856a4d13d06e0c892b87318eb14e6e3eb5f10538f88f0d5db12fe4d2874,figure,scientific,False,Inversion magnitude distribution figure.
+inversion_depth_distribution.png,png,55655,691df66dedadfa1297921bc693c8a6f00733cc353fc7ffe755e138b61e810713,figure,scientific,False,Inversion depth distribution figure.
+inversion_depth_metrics.csv,csv,271,e8e9d5ab953aa7d2a7cb9552dbe0c8f85fcac0df01b0decca1a476fa55e0e797,inversion,scientific,False,Inversion frequency by depth transition.
+inversion_frequency_by_region.png,png,39972,fad98bf3851eaffd69203a19d003b78b51b06209af647a230428e94e5ba115f8,figure,scientific,False,Inversion frequency by region figure.
+inversion_magnitude_distribution.png,png,51454,8ce82d4796841ee7dc84d8f946f5a13919fc1884c26689ed3e3c7d084a8feb5f,figure,scientific,False,Inversion magnitude histogram.
+inversion_magnitude_metrics.csv,csv,578,c8bbf794b94b70075c4bcd85cf9d1da8fdc35021587fdaab1c2527d6da28ffc4,inversion,scientific,False,Inversion magnitude distribution statistics.
+inversion_metrics.csv,csv,550,256b24bb1654dd88d252d58d9051bc4527dc18319c9f29b43caf204ae725122a,inversion,scientific,True,Aggregated inversion frequency and magnitude metrics.
+inversion_metrics_daily.csv,csv,9165,ca7330ccc20b0020125de1136f9081ddd2dc9c03cb62ade378bd5aa957fba241,inversion,scientific,False,Daily inversion frequency time series.
+inversion_profiles.csv,csv,1453517,dfcb10a8e0b112003f28afdd1e84e5f5daabf60f1da70612cf96c85d7699882d,inversion,scientific,True,"Full inversion profile list: 16,918 qualifying profiles with lat/lon/date/region."
+inversion_region_spatial_map.png,png,62635,5bff142deffe36468ea97f76125ee77878e7594e6ffba2bc6f4409c65a3e1284,figure,scientific,False,Inversion spatial frequency map.
+inversion_selection_audit.json,json,1183,10c2adf3fc62e7749346a1f36eb1d40935f310b65224d4bae062c18378b4d143,other,metadata,False,See file contents.
+metric_crosscheck_recompute.csv,csv,336,845c4db88feaaa55c9aa68ceefe4f80ac194dddb26122182685cdc3ff3c13f48,audit,metadata,True,8-row metric cross-check: prior vs recomputed headline values. All PASS.
+metric_null_reconciliation.csv,csv,4329,e73372e826e6fcfc99f0cd0b506bc801b38704626270c156f596e480f853e2b7,audit,metadata,True,Metric-column NULL reconciliation.
+missingness_cell_audit_argo.csv,csv,1688611,5cc18004a4bc2f34c41f79822024a596eab1bbb32c3ed8d2dc34c2a89f05645a,audit,metadata,True,Cell-level ARGO missingness audit.
+missingness_cell_audit_ocean.csv,csv,2673,0858b81cfe6848c545e8a299e5df11c758e9b3a787658f652f1cacc9b740fbbb,audit,metadata,True,Cell-level ocean/bathymetry missingness audit.
+missingness_report.csv,csv,11349,492bd9e14ed097ef98d2989bd545c01c6ed169975998bc93d3d3c6e7a8c4ce11,audit,metadata,True,Missingness summary by file and mechanism.
+model_output_order.json,json,121,6a10549bdeb758b3491a7600dfd91f1a63d485b81a06132ff454a0dddc63238f,metadata,metadata,True,"Documents model output index: 0=temp_anomaly, 1=uncertainty."
+null_accounting_by_artifact.csv,csv,1307,26a62c723665895e22157dc63567255d3c1ec4be0a27faf5886c32dc60240e65,audit,metadata,True,Artifact-level NULL accounting summary.
+ocean_null_reconciliation.csv,csv,386,8c7b2b0b74f961bd95fad5ffa94f6e650adb9eb3ac151ea0202ab2bd23fcd38b,audit,metadata,True,Ocean/bathymetry NULL reconciliation.
+oceanembed_model.keras,keras,853228,39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5,model_weights,scientific,True,"Frozen model weights. Load with keras.models.load_model(). Input: [surface_features(None,100,240,70), regime_gate(None,100,240,1)]. Output: [temp_anomaly, uncertainty](None,100,240,15)."
+publication_readiness_audit.md,md,21252,8a9f385eb959bedaf69bbca8ce03156563aff39dbfea766f6d248e08386864b0,report,scientific,True,Primary publication readiness report. Status: READY_WITH_TRANSPARENT_CAVEATS.
+reconstruction_completeness.csv,csv,3756,2dad2f1e256888f5a199de25a6f611b794c91ae435ac0eabc2144ee502fbe82f,audit,metadata,True,Reconstruction depth-level completeness summary.
+reconstruction_coverage.png,png,61757,381dba96e3ec9bb7d5cdaeff2d66f56e1267604ed0f3ac3613a01287a8d71b7c,figure,scientific,False,Reconstruction spatial coverage figure.
+reconstruction_example_maps.png,png,113999,2b1421c13912a99d7919340bc1f31035f35f34427cde60bed53c35169366ad90,figure,scientific,False,Example reconstruction maps.
+reconstruction_provenance.csv,csv,1491,e987c2070e5081b9527ab637cf406d98f2ae400b435c514a3fbab7dbf10c33ff,lineage,metadata,True,Provenance chain for reconstruction outputs.
+reconstruction_uncertainty.png,png,65368,f00aacc156ea58922904d21885b8cc1b218fb0f11a6360eb9a12221f3b5470b5,figure,scientific,False,Uncertainty field figure.
+reconstructions.csv,csv,282214179,82d54ef1c75e96ae86e4eb41b4a363d090ba8ec6938ff331742ee49efad3febb,reconstruction,scientific,True,CSV copy of reconstructions.parquet. Same schema. 269 MB.
+reconstructions.parquet,parquet,100251283,69055aafdb9c0cfd8e23b6b2aaf137f2245f770a2200c1131faf57b00ab97641,reconstruction,scientific,True,"Primary reconstruction output. 1,116,650 rows (22,333 ocean cells × 50 holdout days). Columns: obs_date, lat, lon, temperature_c (PG-array of 15 depths), uncertainty_c, regime."
+regime_coverage.png,png,60581,fe0f510ee48ff8a4b55c230d85b9ad5afe7d995d9b71c504c2d8b11d5bedb507,figure,scientific,False,Regime coverage map.
+regime_daily_rmse.png,png,110236,98d3b14b8276fbff8492e34720795df55debe8b941ceec55a17cdc421e0eb71e,figure,scientific,False,Daily RMSE by regime figure.
+regime_date_depth_population.csv,csv,363053,5369ba8ce58cc88240b17ead6f5fc7cec768f798b22f0d04fddfc33ccd20180a,population,metadata,False,Date × depth population counts.
+regime_depth_rmse.png,png,135851,b15f19c94d568f9edacb3d628fd9f79d270e10595bbe976079cf556a1c151674,figure,scientific,False,Depth RMSE by regime figure.
+regime_depth_summary.csv,csv,5214,e8fba775224576cc3d092718dc9bb5e638cbb17b754b3e5624270bd4f1755e45,metrics,scientific,False,Depth-stratified regime performance.
+regime_latitude_metrics.csv,csv,21853,52db78bfa0d871cfbf49ee115234b7e74326684d1db66bc022eac14231b71f7a,metrics,scientific,False,Latitude-binned metrics.
+regime_longitude_metrics.csv,csv,26411,623c597095cd5ad417a1167f3f35ab1232697a55e5f9aa53178fd9879904d972,metrics,scientific,False,Longitude-binned metrics.
+regime_metrics.csv,csv,7019,8cb9cf603acb70bb6211ef6772774848c824c8e57a5d27f1fbfbc6342db0c7e1,metrics,scientific,True,Regime-level pooled RMSE/MAE/Bias by AS/BoB.
+regime_metrics_daily.csv,csv,17276,f6eb6b92ec995ad32a0be51a19334cc055f04811039ebbafaf960a27f7fe4cdb,metrics,scientific,False,Daily regime performance time series.
+regime_metrics_daily_depth.csv,csv,242463,a04781039a081bc2cbca6374631e95ecdf9495ea50b86f0b601beb20beb457eb,metrics,scientific,False,Daily × depth regime metrics.
+regime_profile_level.csv,csv,93232447,21df5af7651ab9b6c8dd22dc0b7a28de2c3f44335dfab4fbc7dc9ea79c6711a5,other,metadata,False,See file contents.
+regime_spatial_breakdown.csv,csv,10197,9e91e9e2fa665a5389b8f13f80d0c46be0b450277f43a3e6eb693d537b3d82f9,metrics,scientific,False,Spatial breakdown of regime metrics.
+regime_spatial_breakdown.png,png,51472,57f1e1c9726bfcedc35f644d61aa9490a19cd2288ab6be512ecbf05a5fd13c1e,figure,scientific,False,Regime spatial breakdown figure.
+regime_summary.csv,csv,519,696f6494f2bcb54b989e424a5df7df6e12ed4244109542e6c8c07466cafe5bbb,metrics,scientific,False,Summary regime statistics.
+reproducibility_environment_audit.json,json,6499,37accfed16d4ecddfdca521d62e6be00d7b0f9ce1e0690d1478385357e79fed3,audit,metadata,True,"Full environment, inference reproducibility, uncertainty calibration, Pearson r decomposition."
+requirements-final.txt,txt,496,58cd79b45614df58a0e6f0c5c0a852f4b0c4748a05082a03e570d96ddb2c7e85,environment,metadata,True,Pinned pip requirements for exact reproduction of inference/audit workflow.
+residual_correction_head.keras,keras,85549,6143537415102eedf0207c4c82b1977a9289daa44f607503837e5cbea1419d6d,other,metadata,False,See file contents.
+run_summary.json,json,372,c59953d954c28105839468ea861bd42f328998fb02d956f0a25dce1d4556fb04,metadata,metadata,False,Run summary for training/evaluation run.
+scientific_claim_audit.csv,csv,3057,b7dffb3207ff142552a6dbdeb966f94527ef606d46aef4707acf51183848e88a,audit,metadata,True,7 scientific claims audited: SUPPORTED/SUPPORTED_WITH_CAVEAT/UNSUPPORTED_AND_REMOVED.
+source_completeness.csv,csv,11156,e41a1b5692e4cd3c0a305b1e5189671bf82ccf8f72bb84408409e44a1169d056,audit,metadata,True,Source data completeness by variable.
+uncertainty_error_diagnostics.csv,csv,959,490b13ae1e9bc67b95c755c0561aac64128485ffabe3f043d64760d68617f9c7,metrics,scientific,True,Raw uncertainty vs error diagnostics.

@@ -1,0 +1,20 @@
+# OceanEmbed — Final Reproducibility Requirements
+# Generated: 2026-09-11T21:45:45.567479Z
+# Environment: oceanembed conda (Python 3.12, Apple Silicon / macOS)
+# IMPORTANT: Use 'oceanembed' conda env, NOT base Python 3.13 (segfault on Keras import)
+#
+tensorflow==2.16.2
+tensorflow-metal==1.2.0
+keras==3.15.1
+numpy==1.26.4
+pandas==3.0.5
+xarray==2026.7.0
+matplotlib==3.11.1
+scipy==1.17.1
+h5py==3.16.0
+netCDF4==1.7.4
+pyarrow==25.0.1
+protobuf==4.25.9
+optree==0.20.0
+absl-py==2.5.0
+ml-dtypes==0.3.2

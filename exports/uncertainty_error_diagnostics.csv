@@ -1,0 +1,6 @@
+sigma_bin_range_c,sample_count,mean_predicted_sigma_c,empirical_mae_c,correlation_sigma_abs_error,empirical_coverage_1sigma,nominal_gaussian_1sigma,empirical_coverage_2sigma,nominal_gaussian_2sigma,calibration_evidence
+0.00-0.05,44518,0.0447,1.2592,0.2017,0.1292,0.6827,0.2484,0.9545,NOT DEMONSTRATED (Significant under-coverage: empirical 1-sigma coverage << 68.3%)
+0.05-0.10,364816,0.0691,0.8133,0.2017,0.1292,0.6827,0.2484,0.9545,NOT DEMONSTRATED (Significant under-coverage: empirical 1-sigma coverage << 68.3%)
+0.10-0.15,84927,0.1219,1.1527,0.2017,0.1292,0.6827,0.2484,0.9545,NOT DEMONSTRATED (Significant under-coverage: empirical 1-sigma coverage << 68.3%)
+0.15-0.20,35377,0.17,1.1598,0.2017,0.1292,0.6827,0.2484,0.9545,NOT DEMONSTRATED (Significant under-coverage: empirical 1-sigma coverage << 68.3%)
+0.20-1.00,169695,0.4916,1.3435,0.2017,0.1292,0.6827,0.2484,0.9545,NOT DEMONSTRATED (Significant under-coverage: empirical 1-sigma coverage << 68.3%)

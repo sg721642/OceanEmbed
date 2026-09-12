@@ -1,0 +1,22 @@
+# Git LFS tracking rules for OceanEmbed
+# See: https://git-lfs.github.com/
+
+# --- BINARY MODEL ARTIFACTS ---
+exports/*.keras filter=lfs diff=lfs merge=lfs -text
+
+# --- LARGE BINARY DATA FILES ---
+data/processed/*.nc filter=lfs diff=lfs merge=lfs -text
+
+# --- LARGE CSV OUTPUTS (LFS by explicit path to avoid catching small CSVs) ---
+exports/reconstructions.csv filter=lfs diff=lfs merge=lfs -text
+exports/reconstructions.parquet filter=lfs diff=lfs merge=lfs -text
+exports/inversion_candidates.csv filter=lfs diff=lfs merge=lfs -text
+exports/inversion_profiles.csv filter=lfs diff=lfs merge=lfs -text
+exports/all_scientific_nulls_ledger.csv filter=lfs diff=lfs merge=lfs -text
+exports/missingness_cell_audit_argo.csv filter=lfs diff=lfs merge=lfs -text
+
+# --- NUMPY ARCHIVES ---
+exports/*.npz filter=lfs diff=lfs merge=lfs -text
+
+# --- PARQUET FILES ---
+exports/*.parquet filter=lfs diff=lfs merge=lfs -text

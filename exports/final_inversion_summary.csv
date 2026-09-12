@@ -1,0 +1,12 @@
+metric_category,population_type,count,fraction,notes
+Total Holdout Profiles Screened,grid_profiles,1116650,1.0,"All 22,333 ocean cells across all 50 holdout dates (22,333 * 50)"
+Real Profiles with Qualifying Inversion,inversion_profiles,16918,0.0152,ΔT >= 0.05°C within upper 100m
+Arabian Sea Inversion Profiles,inversion_profiles,12465,0.0224,"2.24% regional frequency (12,465 / 556,900)"
+Bay of Bengal Inversion Profiles,inversion_profiles,4453,0.008,"0.80% regional frequency (4,453 / 559,750)"
+Total Qualifying Inversion Segments,inversion_segments,19233,1.1368,Mean 1.14 segments per inversion profile
+Segments: 0.05 <= delta < 0.10°C,inversion_segments,13654,0.7099,Weak inversion tier
+Segments: 0.10 <= delta < 0.20°C,inversion_segments,4398,0.2287,Moderate inversion tier
+Segments: 0.20 <= delta < 0.30°C,inversion_segments,554,0.0288,Strong inversion tier
+Segments: 0.30 <= delta < 0.50°C,inversion_segments,377,0.0196,Severe inversion tier
+Segments: 0.50 <= delta < 1.00°C,inversion_segments,248,0.0129,Extreme inversion tier
+Segments: delta >= 1.00°C,inversion_segments,2,0.0001,Anomalous peak tier (Max ΔT = +1.1318°C)

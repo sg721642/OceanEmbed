@@ -1,0 +1,106 @@
+{
+  "audit_timestamp": "2026-09-11T20:53:06.495588Z",
+  "overall_status": "PASS",
+  "model_frozen": true,
+  "model_hash": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+  "cube_hash": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+  "holdout_start": "2023-05-11",
+  "holdout_end": "2023-06-29",
+  "total_holdout_days": 50,
+  "active_ocean_cells_per_day": 22333,
+  "total_holdout_profiles": 1116650,
+  "total_inversion_profiles": 16918,
+  "total_inversion_segments": 19233,
+  "total_argo_finite_points_holdout": 42760,
+  "total_argo_paired_ocean_climatology_points": 25904,
+  "regime_population_counts": {
+    "arabian_sea_profiles": 556650,
+    "bay_of_bengal_profiles": 560000,
+    "arabian_sea_glorys_pairs": 7926900,
+    "bay_of_bengal_glorys_pairs": 8067850,
+    "arabian_sea_argo_pairs": 25904,
+    "bay_of_bengal_argo_pairs": 0
+  },
+  "case_selection_method": "deterministic chronological-regional sampling",
+  "provenance_checks": {
+    "glorys_candidate_checks": 38466,
+    "glorys_candidate_mismatches": 0,
+    "argo_candidate_checks": 246,
+    "argo_candidate_mismatches": 0,
+    "status": "PASS"
+  },
+  "duplicate_checks": {
+    "reconstructions_duplicates": 0,
+    "regime_profile_level_duplicates": 0,
+    "inversion_profiles_duplicates": 0,
+    "inversion_candidates_duplicates": 0,
+    "inversion_case_studies_duplicates": 0,
+    "status": "PASS"
+  },
+  "omission_checks": {
+    "reconstructions_rows": 1116650,
+    "regime_profile_rows": 1116650,
+    "inversion_profile_rows": 16918,
+    "inversion_candidate_rows": 19233,
+    "case_studies_rows": 360,
+    "status": "PASS"
+  },
+  "missingness_checks": {
+    "columns_audited": 294,
+    "unexplained_nulls": 0,
+    "evidence_based_categories_verified": true,
+    "status": "PASS"
+  },
+  "anti_fabrication_checks": {
+    "synthetic_values": 0,
+    "manual_values": 0,
+    "runtime_interpolations": 0,
+    "status": "PASS"
+  },
+  "random_spot_check_count": 5000,
+  "exhaustive_model_consistency_count": 16749750,
+  "exhaustive_glorys_provenance_count": 38466,
+  "exhaustive_argo_provenance_count": 246,
+  "cell_level_missingness_audit": {
+    "total_scientific_nulls": 97263,
+    "verified_nulls": 97263,
+    "unexplained_nulls": 0,
+    "recoverable_nulls": 0,
+    "unrecoverable_nulls": 97263,
+    "all_classifications_verified": true,
+    "breakdown_by_physical_cause": {
+      "ARGO_OFF_CYCLE": 18451,
+      "ARGO_SURFACE_CUTOFF": 24,
+      "NO_ARGO_SOURCE_COVERAGE": 995,
+      "BELOW_LOCAL_SEAFLOOR": 24,
+      "NO_VALID_PAIR": 77769
+    }
+  },
+  "field_completeness_reconciliation": {
+    "mismatched_columns": 0,
+    "status": "PASS"
+  },
+  "null_accounting_reconciliation": {
+    "direct_csv_scientific_nulls": 97263,
+    "master_ledger_nulls": 97263,
+    "difference": 0,
+    "breakdown_by_physical_reason": {
+      "NO_VALID_PAIR": 58611,
+      "ARGO_OFF_CYCLE": 36594,
+      "NO_ARGO_SOURCE_COVERAGE": 1962,
+      "BELOW_LOCAL_SEAFLOOR": 72,
+      "ARGO_SURFACE_CUTOFF": 24
+    },
+    "reason_sum": 97263,
+    "reason_sum_difference": 0,
+    "duplicate_ledger_rows": 0,
+    "omitted_null_cells": 0,
+    "unexplained_null_cells": 0,
+    "recoverable_null_cells": 0,
+    "unrecoverable_null_cells": 97263,
+    "production_csv_count": 23,
+    "total_production_columns": 284,
+    "field_audit_mismatches": 0,
+    "status": "PASS"
+  }
+}

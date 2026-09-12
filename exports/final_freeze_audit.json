@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-11T20:52:42.696984Z",
+  "model_frozen": true,
+  "holdout_frozen": true,
+  "files": {
+    "oceanembed_model.keras": {
+      "path": "/Users/satyamgupta/Documents/OceanEmbed/files/oceanembed_project/exports/oceanembed_model.keras",
+      "sha256": "39eb06cd6f73e8866f1914fd6ce560079eb3bc3a271829c330aa923cdcc91bb5",
+      "size_bytes": 853228
+    },
+    "oceanembed_cube_with_climatology.nc": {
+      "path": "/Users/satyamgupta/Documents/OceanEmbed/files/oceanembed_project/data/processed/oceanembed_cube_with_climatology.nc",
+      "sha256": "c56ae615750acba2c7fd9e36955716d500d61d29482001bd9daea494aac92b79",
+      "size_bytes": 429264108
+    },
+    "holdout_config.json": {
+      "path": "/Users/satyamgupta/Documents/OceanEmbed/files/oceanembed_project/data/processed/holdout_config.json",
+      "sha256": "75f82449d2f2a7b45222e8b3d6dfbef03171e114cc49406e0cb8d970ef4e7ef8",
+      "size_bytes": 519
+    },
+    "notebooks/OceanEmbed_Training_Pipeline.ipynb": {
+      "path": "/Users/satyamgupta/Documents/OceanEmbed/files/oceanembed_project/notebooks/OceanEmbed_Training_Pipeline.ipynb",
+      "sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+      "size_bytes": 230843
+    },
+    "OceanEmbed_Training_Pipeline_CORRECTED.ipynb": {
+      "path": "/Users/satyamgupta/Documents/OceanEmbed/files/OceanEmbed_Training_Pipeline_CORRECTED.ipynb",
+      "sha256": "62236fce5e4e601b00801d4e9891cf0cafb8bc668a254d280b2ab289aed31eaf",
+      "size_bytes": 230843
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "input_vars": [
+    "sst",
+    "sss",
+    "ssh",
+    "sla",
+    "u_geo",
+    "v_geo",
+    "u_ageo",
+    "v_ageo",
+    "wind_u",
+    "wind_v"
+  ],
+  "target_vars": [
+    "temperature_3d",
+    "argo_temperature_3d"
+  ],
+  "glorys_temperature_var": "temperature_3d",
+  "argo_temperature_var": "argo_temperature_3d",
+  "ocean_mask_var": "ocean_mask",
+  "argo_valid_mask_var": "argo_valid_mask",
+  "grid": {
+    "n_lat": 100,
+    "n_lon": 240
+  },
+  "depths": [
+    0.0,
+    5.0,
+    10.0,
+    20.0,
+    30.0,
+    50.0,
+    75.0,
+    100.0,
+    125.0,
+    150.0,
+    200.0,
+    300.0,
+    500.0,
+    700.0,
+    1000.0
+  ],
+  "time_days": 180
+}

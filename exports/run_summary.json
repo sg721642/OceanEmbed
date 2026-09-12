@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-12T02:08:30.589919",
+  "holdout_start": "2023-05-11",
+  "holdout_end": "2023-06-29",
+  "n_holdout_days": 50,
+  "reconstruction_rows": 1116650,
+  "total_inversion_segments": 19233,
+  "total_inversion_profiles": 16918,
+  "selected_inversion_cases": 12,
+  "total_export_bytes": 389851173,
+  "storage_budget_gb": 1.0,
+  "storage_used_gb": 0.3899
+}

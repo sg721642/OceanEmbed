@@ -1,0 +1,4 @@
+artifact,column,missingness_reason,null_count,raw_source,verified_status
+inversion_case_studies.csv,climatology_temp_c,BELOW_LOCAL_SEAFLOOR,24,temperature_3d / climatology,VERIFIED
+inversion_case_studies.csv,glorys_temp_c,BELOW_LOCAL_SEAFLOOR,24,temperature_3d / climatology,VERIFIED
+inversion_case_studies.csv,model_temp_c,BELOW_LOCAL_SEAFLOOR,24,temperature_3d / climatology,VERIFIED

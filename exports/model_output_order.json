@@ -1,0 +1,8 @@
+{
+  "output_names": [
+    "temp_3d_head",
+    "uncertainty_head"
+  ],
+  "temp_output_index": 0,
+  "unc_output_index": 1
+}

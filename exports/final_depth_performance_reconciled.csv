@@ -1,0 +1,37 @@
+target,benchmark_source,depth_scope_type,depth_label,depth_m,n_valid,rmse_c,mae_c,bias_c,median_abs_error_c,p90_abs_error_c,p95_abs_error_c,pearson_r,metric_status
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,0m,0,1116650,1.7518,1.2912,1.2633,0.9346,2.9379,3.6755,0.5278,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,5m,5,1116650,1.5025,1.0641,1.0259,0.757,2.4613,3.2562,0.7105,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,10m,10,1116650,1.4599,1.0288,0.9918,0.7178,2.4124,3.143,0.7613,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,20m,20,1107450,1.4194,0.9975,0.9372,0.671,2.2651,3.0657,0.7439,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,30m,30,1094650,1.6907,1.1714,1.0593,0.773,2.7113,3.5291,0.4622,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,50m,50,1089450,1.5265,1.0913,0.3817,0.854,2.115,3.0169,0.5188,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,75m,75,1080250,1.6198,1.0947,0.2707,0.7662,2.4237,3.5963,0.6951,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,100m,100,1079050,1.8329,1.2335,0.8445,0.7607,3.1108,4.3689,0.7403,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,125m,125,1073850,2.079,1.6407,1.4078,1.3304,3.5262,4.0501,0.7741,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,150m,150,1069600,1.9621,1.6045,1.538,1.3969,3.2246,3.8181,0.722,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,200m,200,1062400,1.5177,1.2674,1.2339,1.1882,2.4162,2.8334,0.6143,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,300m,300,1044400,0.8932,0.754,0.7065,0.7131,1.4555,1.5934,-0.2353,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,500m,500,1020800,0.4316,0.3384,-0.1417,0.2874,0.6666,0.8015,-0.1305,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,700m,700,1005200,0.6649,0.5612,-0.5389,0.531,1.0239,1.2042,0.0275,computed
+GLORYS,GLORYS Reanalysis Benchmark,individual_depth,1000m,1000,987600,0.6089,0.5148,0.3312,0.4755,0.9886,1.1073,-0.0435,computed
+GLORYS,GLORYS Reanalysis Benchmark,pooled_aggregate,0-100m aggregate,0-100m,8800800,1.6055,1.1213,0.85,0.7804,2.5749,3.4676,0.7165,computed
+GLORYS,GLORYS Reanalysis Benchmark,pooled_aggregate,125-300m aggregate,125-300m,4250250,1.6831,1.3204,1.2248,1.0779,2.8493,3.4581,0.956,computed
+GLORYS,GLORYS Reanalysis Benchmark,pooled_aggregate,500-1000m aggregate,500-1000m,3013600,0.5762,0.4705,-0.1192,0.423,0.9324,1.0901,0.7866,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,0m,0,0,,,,,,,,no_finite_observations
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,5m,5,3404,1.869,1.7009,1.7009,1.7437,2.9173,3.0251,-0.7235,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,10m,10,3404,1.9502,1.7783,1.7783,1.8664,2.8969,3.0692,-0.6115,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,20m,20,3212,1.8955,1.6786,1.6657,1.728,2.9176,3.1796,-0.6222,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,30m,30,2660,2.1363,1.9514,1.9468,1.9849,2.8309,3.6043,-0.6209,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,50m,50,2316,1.7804,1.5614,1.5473,1.5298,2.5162,3.1334,-0.6352,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,75m,75,2004,1.3362,1.1868,0.9593,1.1922,2.0402,2.1764,-0.5244,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,100m,100,1668,3.2662,3.1659,3.1659,3.3335,4.058,4.1294,0.0707,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,125m,125,1540,1.1993,1.078,1.0138,1.184,1.6809,1.856,0.1891,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,150m,150,1360,0.2764,0.2243,0.1475,0.1886,0.4524,0.5131,0.624,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,200m,200,1232,1.3372,1.2727,1.2727,1.1979,1.8723,2.1157,-0.1295,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,300m,300,976,0.5916,0.5469,0.5449,0.5288,0.8093,0.9167,0.1538,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,500m,500,768,0.259,0.2101,0.1024,0.1695,0.4405,0.5251,-0.3421,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,700m,700,696,1.0067,0.987,0.987,1.0394,1.2013,1.2308,0.1836,computed
+independent_ARGO,Independent In-Situ ARGO Observations,individual_depth,1000m,1000,664,2.9288,2.9116,2.9116,2.93,3.3246,3.4055,-0.2451,computed
+independent_ARGO,Independent In-Situ ARGO Observations,pooled_aggregate,0-100m aggregate,0-100m,18668,2.034,1.8053,1.7762,1.7783,3.0872,3.5611,0.8463,computed
+independent_ARGO,Independent In-Situ ARGO Observations,pooled_aggregate,125-300m aggregate,125-300m,5108,0.9758,0.7962,0.756,0.7455,1.5522,1.7831,0.9675,computed
+independent_ARGO,Independent In-Situ ARGO Observations,pooled_aggregate,500-1000m aggregate,500-1000m,2128,1.7414,1.3072,1.2683,1.0031,3.0765,3.2334,0.8945,computed

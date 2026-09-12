@@ -1,0 +1,4 @@
+region,profiles_checked,profiles_with_inversion,inversion_frequency,total_inversion_segments,mean_delta,median_delta,p90_delta,p95_delta,max_delta,mean_top_depth,mean_bottom_depth,ARGO_supported_profiles,GLORYS_supported_profiles,model_supported_profiles
+overall,1116650,16918,0.015151,19233,0.1018,0.0763,0.1562,0.2294,1.1318,30.25,45.55,9,16918,3571
+arabian_sea,556650,12465,0.022393,14621,0.109,0.0784,0.1742,0.2744,1.1318,23.67,37.13,9,12465,2099
+bay_of_bengal,560000,4453,0.007952,4612,0.0787,0.0711,0.1128,0.1334,0.2335,51.11,72.25,0,4453,1472

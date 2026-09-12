@@ -1,0 +1,121 @@
+variable,region,depth_m,total_ocean_points,finite_count,nan_count,finite_fraction,primary_missing_reason
+glorys_temperature,arabian_sea,0,556650,556650,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,arabian_sea,5,556650,556650,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,arabian_sea,10,556650,556650,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,arabian_sea,20,556650,547450,9200,0.983473,coastal_masking
+glorys_temperature,arabian_sea,30,556650,534650,22000,0.960478,coastal_masking
+glorys_temperature,arabian_sea,50,556650,529450,27200,0.951136,coastal_masking
+glorys_temperature,arabian_sea,75,556650,520250,36400,0.934609,coastal_masking
+glorys_temperature,arabian_sea,100,556650,519050,37600,0.932453,coastal_masking
+glorys_temperature,arabian_sea,125,556650,513850,42800,0.923111,coastal_masking
+glorys_temperature,arabian_sea,150,556650,509600,47050,0.915477,coastal_masking
+glorys_temperature,arabian_sea,200,556650,502400,54250,0.902542,coastal_masking
+glorys_temperature,arabian_sea,300,556650,484400,72250,0.870206,bathymetry_seafloor_masking (shallow shelf depths)
+glorys_temperature,arabian_sea,500,556650,460800,95850,0.827809,bathymetry_seafloor_masking (shallow shelf depths)
+glorys_temperature,arabian_sea,700,556650,445200,111450,0.799784,bathymetry_seafloor_masking (shallow shelf depths)
+glorys_temperature,arabian_sea,1000,556650,427600,129050,0.768167,bathymetry_seafloor_masking (shallow shelf depths)
+glorys_temperature,bay_of_bengal,0,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,5,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,10,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,20,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,30,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,50,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,75,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,100,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,125,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,150,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,200,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,300,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,500,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,700,560000,560000,0,1.0,none_all_ocean_cells_finite
+glorys_temperature,bay_of_bengal,1000,560000,560000,0,1.0,none_all_ocean_cells_finite
+argo_temperature,arabian_sea,0,556650,0,556650,0.0,surface_sensor_cutoff (ARGO surface transmission level)
+argo_temperature,arabian_sea,5,556650,3404,553246,0.006115,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,10,556650,3404,553246,0.006115,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,20,556650,3244,553406,0.005828,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,30,556650,2924,553726,0.005253,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,50,556650,2700,553950,0.00485,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,75,556650,2548,554102,0.004577,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,100,556650,2308,554342,0.004146,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,125,556650,2244,554406,0.004031,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,150,556650,2148,554502,0.003859,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,200,556650,2084,554566,0.003744,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,300,556650,2020,554630,0.003629,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,500,556650,1852,554798,0.003327,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,700,556650,1788,554862,0.003212,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,arabian_sea,1000,556650,1756,554894,0.003155,observational_sparsity (10-day discrete profile array sampling)
+argo_temperature,bay_of_bengal,0,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,5,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,10,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,20,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,30,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,50,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,75,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,100,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,125,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,150,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,200,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,300,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,500,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,700,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+argo_temperature,bay_of_bengal,1000,560000,0,560000,0.0,regional_float_absence (0 active ARGO floats in BoB during holdout)
+model_prediction,arabian_sea,0,556650,556650,0,1.0,none_all_ocean_cells_finite
+model_prediction,arabian_sea,5,556650,556650,0,1.0,none_all_ocean_cells_finite
+model_prediction,arabian_sea,10,556650,556650,0,1.0,none_all_ocean_cells_finite
+model_prediction,arabian_sea,20,556650,547450,9200,0.983473,coastal_masking
+model_prediction,arabian_sea,30,556650,534650,22000,0.960478,coastal_masking
+model_prediction,arabian_sea,50,556650,529450,27200,0.951136,coastal_masking
+model_prediction,arabian_sea,75,556650,520250,36400,0.934609,coastal_masking
+model_prediction,arabian_sea,100,556650,519050,37600,0.932453,coastal_masking
+model_prediction,arabian_sea,125,556650,513850,42800,0.923111,coastal_masking
+model_prediction,arabian_sea,150,556650,509600,47050,0.915477,coastal_masking
+model_prediction,arabian_sea,200,556650,502400,54250,0.902542,coastal_masking
+model_prediction,arabian_sea,300,556650,484400,72250,0.870206,bathymetry_seafloor_masking (shallow shelf depths)
+model_prediction,arabian_sea,500,556650,460800,95850,0.827809,bathymetry_seafloor_masking (shallow shelf depths)
+model_prediction,arabian_sea,700,556650,445200,111450,0.799784,bathymetry_seafloor_masking (shallow shelf depths)
+model_prediction,arabian_sea,1000,556650,427600,129050,0.768167,bathymetry_seafloor_masking (shallow shelf depths)
+model_prediction,bay_of_bengal,0,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,5,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,10,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,20,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,30,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,50,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,75,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,100,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,125,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,150,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,200,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,300,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,500,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,700,560000,560000,0,1.0,none_all_ocean_cells_finite
+model_prediction,bay_of_bengal,1000,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,arabian_sea,0,556650,556650,0,1.0,none_all_ocean_cells_finite
+climatology,arabian_sea,5,556650,556650,0,1.0,none_all_ocean_cells_finite
+climatology,arabian_sea,10,556650,556650,0,1.0,none_all_ocean_cells_finite
+climatology,arabian_sea,20,556650,547450,9200,0.983473,coastal_masking
+climatology,arabian_sea,30,556650,534650,22000,0.960478,coastal_masking
+climatology,arabian_sea,50,556650,529450,27200,0.951136,coastal_masking
+climatology,arabian_sea,75,556650,520250,36400,0.934609,coastal_masking
+climatology,arabian_sea,100,556650,519050,37600,0.932453,coastal_masking
+climatology,arabian_sea,125,556650,513850,42800,0.923111,coastal_masking
+climatology,arabian_sea,150,556650,509600,47050,0.915477,coastal_masking
+climatology,arabian_sea,200,556650,502400,54250,0.902542,coastal_masking
+climatology,arabian_sea,300,556650,484400,72250,0.870206,bathymetry_seafloor_masking (shallow shelf depths)
+climatology,arabian_sea,500,556650,460800,95850,0.827809,bathymetry_seafloor_masking (shallow shelf depths)
+climatology,arabian_sea,700,556650,445200,111450,0.799784,bathymetry_seafloor_masking (shallow shelf depths)
+climatology,arabian_sea,1000,556650,427600,129050,0.768167,bathymetry_seafloor_masking (shallow shelf depths)
+climatology,bay_of_bengal,0,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,5,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,10,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,20,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,30,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,50,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,75,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,100,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,125,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,150,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,200,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,300,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,500,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,700,560000,560000,0,1.0,none_all_ocean_cells_finite
+climatology,bay_of_bengal,1000,560000,560000,0,1.0,none_all_ocean_cells_finite

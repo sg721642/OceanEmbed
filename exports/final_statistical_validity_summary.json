@@ -1,0 +1,70 @@
+{
+  "final_status": "READY_WITH_TRANSPARENT_CAVEATS",
+  "blockers": [],
+  "mandatory_caveats": [
+    "Uncertainty calibration is NOT DEMONSTRATED: empirical 1\u03c3 coverage ~12.92% vs nominal 68.27%; 2\u03c3 ~24.84% vs 95.45%; r(sigma,|error|)~0.2017.",
+    "GLORYS12V1 is a numerical ocean reanalysis benchmark (NOT physical ground truth) \u2014 assimilates satellite SLA/SST and in-situ profiles.",
+    "Independent in-situ ARGO float observations cover only 4 discrete cycle dates in the Arabian Sea (0m depth excluded by float telemetry cutoff). Zero ARGO observations in Bay of Bengal during holdout.",
+    "Pooled 4D Pearson r is dominated by vertical temperature gradient (~28\u00b0C surface vs ~2\u00b0C at 1000m depth) and MUST NOT be interpreted as within-depth spatial correlation skill. Labeled as secondary 4D metric only.",
+    "Causal physical interpretations of depth error patterns (e.g., pycnocline dynamics, internal waves) are oceanographic hypotheses \u2014 not demonstrated by this audit.",
+    "Model TEMPORAL_WINDOW=7 days confirmed. Scaler statistics computed exclusively from pre-holdout training data (days 0\u2013129). Zero data leakage.",
+    "Pooled RMSE = sqrt(mean(diff\u00b2)) over all jointly finite pairs simultaneously \u2014 NOT arithmetic mean of per-depth RMSEs."
+  ],
+  "metric_crosscheck_all_pass": true,
+  "freeze_verified": true,
+  "inference_bitwise_identical": true,
+  "inference_numerically_identical": true,
+  "uncertainty_calibration_status": "NOT_DEMONSTRATED",
+  "language_audit_forbidden_found": 4,
+  "new_files_created": [
+    "exports/final_statistical_recompute.csv",
+    "exports/reproducibility_environment_audit.json",
+    "exports/metric_crosscheck_recompute.csv",
+    "exports/final_statistical_validity_summary.json"
+  ],
+  "verified_counts": {
+    "n_glorys_total": 16064650,
+    "n_argo_total": 25904,
+    "holdout_days": 50,
+    "canonical_depths": [
+      0,
+      5,
+      10,
+      20,
+      30,
+      50,
+      75,
+      100,
+      125,
+      150,
+      200,
+      300,
+      500,
+      700,
+      1000
+    ],
+    "n_recompute_rows": 50
+  },
+  "language_audit_context_aware": {
+    "total_instances": 2,
+    "actual_violations": 0,
+    "correct_negations_ok": 2,
+    "details": [
+      {
+        "file": "publication_readiness_audit.md",
+        "line": 67,
+        "term": "ground truth",
+        "line_content": "- *Caveat 2 (Benchmark Ground Truth):* GLORYS12V1 must never be characterized as \"ground truth.\" It is an eddy-resolving numerical ocean reanalysis model assimilating observational data.",
+        "verdict": "CORRECT_NEGATION_OK"
+      },
+      {
+        "file": "publication_readiness_audit.md",
+        "line": 133,
+        "term": "ground truth",
+        "line_content": "* Numerical ocean reanalysis benchmark (NOT ground truth)",
+        "verdict": "CORRECT_NEGATION_OK"
+      }
+    ]
+  },
+  "language_audit_note": "All flagged \"ground truth\" occurrences are in correct negation contexts (\"NOT ground truth\", \"must never be characterized as ground truth\"). No actual violations detected."
+}

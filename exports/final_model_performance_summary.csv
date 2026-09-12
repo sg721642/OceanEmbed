@@ -1,0 +1,7 @@
+evaluation_scope,benchmark_source,regime,n_valid,rmse_c,mae_c,bias_c,median_abs_error_c,p90_abs_error_c,p95_abs_error_c,pearson_r,metric_status
+Overall GLORYS,GLORYS Reanalysis,overall,16064650,1.4913,1.0519,0.7673,0.726,2.4435,3.2309,0.9869,computed
+Arabian Sea GLORYS,GLORYS Reanalysis,arabian_sea,7664650,1.6688,1.1519,0.8662,0.7574,2.7426,3.6767,0.9828,computed
+Bay of Bengal GLORYS,GLORYS Reanalysis,bay_of_bengal,8400000,1.3084,0.9606,0.6771,0.7042,2.2123,2.8416,0.9906,computed
+Overall independent ARGO,Independent ARGO Floats,overall,25904,1.8488,1.5654,1.5333,1.4684,2.9526,3.3569,0.9876,computed
+Arabian Sea independent ARGO,Independent ARGO Floats,arabian_sea,25904,1.8488,1.5654,1.5333,1.4684,2.9526,3.3569,0.9876,computed
+Bay of Bengal independent ARGO,Independent ARGO Floats,bay_of_bengal,0,,,,,,,,no_finite_observations

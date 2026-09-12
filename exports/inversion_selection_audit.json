@@ -1,0 +1,32 @@
+{
+  "selection_algorithm": "deterministic chronological-regional sampling",
+  "description": "Profiles are sorted by date, lat, lon within each marine region (Arabian Sea and Bay of Bengal) and sampled at uniform index stride (stride = N_region // 12), yielding 12 cases per region across the 50-day holdout.",
+  "candidate_population_segments": 19233,
+  "profile_population": 16918,
+  "selected_population": 24,
+  "rejected_population": 16894,
+  "region_counts": {
+    "arabian_sea": 12,
+    "bay_of_bengal": 12
+  },
+  "selected_magnitude_bin_distribution": {
+    "0.05-0.10": 17,
+    "0.10-0.20": 6,
+    "0.20-0.30": 1,
+    ">0.30": 0
+  },
+  "selected_depth_bin_distribution": {
+    "10-20m": 5,
+    "20-30m": 7,
+    "30-50m": 2,
+    "50-75m": 4,
+    "75-100m": 6
+  },
+  "date_span_coverage": {
+    "earliest_date": "2023-05-11",
+    "latest_date": "2023-06-25",
+    "total_days_span": 50
+  },
+  "deterministic_seed": "no seed used (deterministic index striding over sorted profiles)",
+  "selection_basis": "Strictly chronological and regional ordering of real physical inversion profiles; zero dependence on model accuracy, error magnitude, visual appearance, or ARGO agreement"
+}

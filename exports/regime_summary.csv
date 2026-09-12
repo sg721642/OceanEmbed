@@ -1,0 +1,5 @@
+regime,validation_target,n_obs,coverage_fraction,rmse_c,mae_c,bias_c,median_abs_error_c,p95_abs_error_c,correlation,finite_days,finite_grid_cells,metric_status
+arabian_sea,glorys,7664650,0.91795,1.6688,1.1519,0.8662,0.7574,3.6767,0.9828,50,11133,computed
+arabian_sea,independent_argo,25904,0.003102,1.8488,1.5654,1.5333,1.4684,3.3569,0.9876,4,851,computed
+bay_of_bengal,glorys,8400000,1.0,1.3084,0.9606,0.6771,0.7042,2.8416,0.9906,50,11200,computed
+bay_of_bengal,independent_argo,0,0.0,,,,,,,0,0,no_finite_observations
