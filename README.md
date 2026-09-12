@@ -494,7 +494,7 @@ Regime-stratified RMSE/MAE/bias by depth.
 
 **SIH Problem Statement:** PS 26066  
 **Institution:** INCOIS  
-**Team:** Satyam Gupta, Shivansh, Ayush, Sudipto  
+**Team:** Satyam Gupta, Shivansh, Ayush, Sudipto, Khagesh, Muskan  
 **Framework:** OceanEmbed v3  
 
 *Model weights, training code, and evaluation outputs are provided for reproducibility and demonstration. Not for operational deployment without further validation.*
